@@ -2,22 +2,35 @@
  <div
   class="w-10/12 m-auto h-[10vh] border border-red-600 flex items-center justify-between"
  >
-  <nav>
-   <ul class="flex">
-    <li>
-     <router-link to="/"><h1 class="text-2xl">Sneakers</h1></router-link>
+  <nav class="border h-full">
+   <ul class="flex items-center h-full">
+    <li class="mr-14">
+     <router-link to="/"
+      ><h1 class="text-4xl font-bold">sneakers</h1></router-link
+     >
     </li>
-    <li>
-     <router-link to="/about">Collections</router-link>
+    <li class="mr-14">
+     <router-link to="/about"
+      ><h2 class="text-gray-400">Collections</h2></router-link
+     >
     </li>
-    <li>
-     <router-link to="/about">Men</router-link>
+    <li class="mr-14">
+     <router-link to="/about"><h2 class="text-gray-400">Men</h2></router-link>
     </li>
-    <li>
-     <router-link to="/about"> About </router-link>
+    <li class="mr-14">
+     <router-link to="/about">
+      <h2 class="text-gray-400">Women</h2>
+     </router-link>
     </li>
-    <li>
-     <router-link to="/about"> Contact </router-link>
+    <li class="mr-14">
+     <router-link to="/about"
+      ><h2 class="text-gray-400">About</h2>
+     </router-link>
+    </li>
+    <li class="mr-14">
+     <router-link to="/about"
+      ><h2 class="text-gray-400">Contacts</h2>
+     </router-link>
     </li>
    </ul>
   </nav>
@@ -26,7 +39,10 @@
    <nav>
     <ul class="flex">
      <li>
-      <router-link to="/cart">Cart</router-link>
+      <router-link to="/cart"
+       ><i class="fas fa-cart-shopping"></i>
+       <font-awesome-icon icon="fa-solid fa-user-secret" />
+      </router-link>
      </li>
      <!-- profile image -->
      <li>
