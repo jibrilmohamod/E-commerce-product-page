@@ -39,10 +39,7 @@
    <nav>
     <ul class="flex">
      <li>
-      <router-link to="/cart"
-       ><i class="fas fa-cart-shopping"></i>
-       <font-awesome-icon icon="fa-solid fa-user-secret" />
-      </router-link>
+      <router-link to="/cart"><i class="fas fa-cart-shopping"></i></router-link>
      </li>
      <!-- profile image -->
      <li>
