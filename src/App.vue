@@ -1,7 +1,11 @@
 <template>
- <div></div>
+ <div>
+  <TheNav />
+ </div>
 </template>
 
-<script setup></script>
+<script setup>
+ import TheNav from "./components/TheNav.vue"
+</script>
 
 <style lang="scss" scoped></style>
