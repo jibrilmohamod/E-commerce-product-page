@@ -8,4 +8,8 @@
  import TheNav from "./components/TheNav.vue"
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+ * {
+  font-family: "Kumbh Sans", sans-serif;
+ }
+</style>
